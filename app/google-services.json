@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "468128707450",
+    "project_id": "moviewatcher-d5c28",
+    "storage_bucket": "moviewatcher-d5c28.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:468128707450:android:e67a1b29c167f555fc5cc3",
+        "android_client_info": {
+          "package_name": "com.example.moviewatcher"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "468128707450-51lju9mv84j3bis018vci0ht68b77ndk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBKQVug-JWBIycOVOB1c8yoNjTJAmQHI9U"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "468128707450-51lju9mv84j3bis018vci0ht68b77ndk.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
