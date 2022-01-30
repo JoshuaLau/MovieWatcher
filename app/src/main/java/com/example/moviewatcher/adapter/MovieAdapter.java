@@ -42,6 +42,11 @@ public class MovieAdapter extends RecyclerView.Adapter<MovieAdapter.ViewHolder> 
         return movieList.size();
     }
 
+    public void setMovies(List<MovieModel> movies) {
+        this.movieList = movies;
+        notifyDataSetChanged();
+    }
+
     public static class ViewHolder extends RecyclerView.ViewHolder {
         CheckBox movie;
 
