@@ -5,6 +5,7 @@
       <map>
         <entry key="app/src/main/res/drawable/ic_baseline_add.xml" value="0.105" />
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.22871376811594202" />
+        <entry key="app/src/main/res/layout/activity_splash.xml" value="0.17147922998986828" />
         <entry key="app/src/main/res/layout/movie_layout.xml" value="0.41681060791015623" />
         <entry key="app/src/main/res/layout/new_task.xml" value="0.17147922998986828" />
       </map>
