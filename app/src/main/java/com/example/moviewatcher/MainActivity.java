@@ -45,17 +45,6 @@ public class MainActivity extends AppCompatActivity implements DialogCloseListen
         movieAdapter = new MovieAdapter(this);
         moviesRecyclerView.setAdapter(movieAdapter);
 
-        MovieModel movie = new MovieModel();
-        movie.setId(1);
-        movie.setStatus(0);
-
-        movie.setName("Test movie name!");
-
-        movieList.add(movie);
-        movieList.add(movie);
-        movieList.add(movie);
-        movieList.add(movie);
-        movieList.add(movie);
 
         movieAdapter.setMovies(movieList);
 
