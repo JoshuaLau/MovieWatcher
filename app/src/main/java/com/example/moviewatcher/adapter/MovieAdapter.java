@@ -10,6 +10,8 @@ import androidx.recyclerview.widget.RecyclerView;
 import com.example.moviewatcher.MainActivity;
 import com.example.moviewatcher.R;
 import com.example.moviewatcher.model.MovieModel;
+import com.google.firebase.firestore.DocumentReference;
+import com.google.firebase.firestore.FirebaseFirestore;
 
 import java.util.List;
 
@@ -17,6 +19,7 @@ public class MovieAdapter extends RecyclerView.Adapter<MovieAdapter.ViewHolder> 
 
     private List<MovieModel> movieList;
     private MainActivity activity;
+    private DocumentReference mDocRef = FirebaseFirestore.getInstance().document("moviedb/titles");
 
     public MovieAdapter(MainActivity activity) {
         this.activity = activity;
